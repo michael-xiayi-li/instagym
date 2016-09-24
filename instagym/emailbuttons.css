@@ -1,0 +1,65 @@
+
+
+#center{
+
+	margin-top:200px;
+	text-align:center;
+
+
+
+}
+
+
+#pad{
+
+	padding:2.5px;
+}
+button{
+padding: 10px;
+
+
+	border-radius:8px;
+	background-color:white;
+}
+
+
+#gmailbutton{
+	
+
+
+	width:100px;
+	height:50px;
+	background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQiCvgUDk06cNelYOsupMKsN_oAgEx-C7Ta0oZnUx4iUKdM39jEfMUmDoc");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+
+
+}
+
+
+#yahoobutton{
+	
+
+
+	width:100px;
+	height:50px;
+	background-image: url("http://www.stuxgeek.com/wp-content/uploads/2015/10/yahoo-mail-logo.png");
+	background-size:100% 100%;
+
+
+
+}
+
+
+#outlookbutton{
+	
+
+
+	width:100px;
+	height:50px;
+	background-image: url("http://images.techhive.com/images/article/2014/09/outlook-logo-100457446-large.png");
+	background-size:100% 100%;
+
+
+
+}

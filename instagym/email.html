@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="decorate.css"/>
+		 <script src="cubepls.js" type="text/javascript"></script> 
+		 <link type="text/css" rel="stylesheet" href="emailbuttons.css"/>
+		<title>
+
+
+
+		</title>
+	</head>
+
+
+	<body>
+
+	<div id="center">
+
+
+	<p style="font-size:25px">The e-mail for 
+
+	<script>
+
+
+	var currkey = localStorage.getItem("currentmarker");
+	var scurrkey = currkey.toString();
+	var contactname= localStorage.getItem(scurrkey + "firstname") + " " + localStorage.getItem(scurrkey+"lastname");
+
+	document.write(contactname);
+
+	</script>
+
+
+	is 
+
+	<script>
+
+
+	var currkey = localStorage.getItem("currentmarker");
+	var scurrkey = currkey.toString();
+	var contactemail= localStorage.getItem(scurrkey + "email");
+
+	document.write(contactemail + ". Contact them!");
+
+	</script>
+
+	
+
+
+	
+
+
+
+
+
+	</p>
+	<div id="pad">
+	<button type="button"; id = "gmailbutton"; onclick="gmail()"></button>
+	</div>
+	<p></p>
+	<div id="pad">
+	
+	<button type="button"; id = "yahoobutton"; onclick="yahoo()"></button>
+	</div>
+<p></p>
+	<div id="pad">
+	<button type="button"; id = "outlookbutton"; onclick="outlook()"></button>
+	</div >
+<p></p>
+	<div id="pad">
+	<button type="button"; id = "homebutton"; onclick="gohome()">Home</button>
+
+	</div>
+
+
+	</div>
+	</body>
+</html>

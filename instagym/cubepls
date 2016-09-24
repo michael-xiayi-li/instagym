@@ -1,0 +1,11 @@
+
+
+
+function register() {
+        location.href = "registration"
+    	};
+
+function findgym(){
+    location.href = "find"
+
+    };

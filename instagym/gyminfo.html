@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="decorate.css"/>
+		 <script src="cubepls.js" type="text/javascript"></script> 
+		<link type="text/css" rel="stylesheet" href="table.css"/>
+
+
+		<title>
+
+
+
+		</title>
+	</head>
+
+
+	<body>
+
+	<div class="middle">
+	<h2 class="title">Gym Info</h2>
+
+
+	<table border="1px" class="imagetable">
+		<tr>
+			 <th>Info</th>
+    		<th>Chosen Gym</th>
+		</tr>
+
+            <tr>
+                <td>Name</td>
+                <td>
+                	
+                	<script>
+	
+					var currentkey = localStorage.getItem("currentmarker");
+					var k = currentkey.toString();
+
+
+					var fullname= localStorage.getItem(k.concat("firstname")) + " " + localStorage.getItem(k.concat("lastname"))  ;
+	
+
+
+
+					document.write( fullname );
+	
+
+
+
+
+					</script>
+
+                </td>     
+            </tr>
+            
+            <tr>
+                <td>Address</td>
+                <td>
+                	<script>
+
+
+
+					var getaddressline1 = localStorage.getItem(k.concat("addressline1"));
+					var getaddressline2 = localStorage.getItem(k.concat("addressline2"));
+				    var getcity = localStorage.getItem(k.concat("city"));
+				    var getstate =localStorage.getItem(k.concat("state"));
+				    var getzipcode = localStorage.getItem(k.concat("zipcode"));
+
+
+				    var address = getaddressline1 +" "+ getaddressline2;
+
+					document.write(address);
+
+					</script>
+
+
+                </td>
+            </tr>
+            
+            <tr>
+                <td>City</td>
+                <td>
+                	<script>
+                document.write(getcity);
+                	</script>
+                </td>
+            </tr>
+
+            <tr>
+                <td>State</td>
+                <td>
+                	
+                	<script>
+
+
+
+                		document.write(getstate);
+                	</script>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Zip Code</td>
+                <td>
+                	
+                	<script>
+                document.write(getzipcode);
+                	</script>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>Description</td>
+                <td>
+                	
+                	<script>
+
+
+
+					var getdescription = localStorage.getItem(k.concat("description"));
+
+
+					document.write("Description: " + getdescription);
+
+					</script>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>
+                	<script>
+
+
+
+					var getprice = localStorage.getItem(k.concat("price"));
+
+
+					document.write("Price: $" + getprice + " per hour");
+
+					</script>
+
+
+
+
+                </td>
+            </tr>
+
+
+
+        </table>
+
+
+	
+	<p></p>
+	
+
+	<p></p>
+
+	
+
+
+
+	<p></p>
+
+	
+
+	<p></p>
+
+	<button type="button"; id = "homebutton"; onclick="contact()"; class="button">Send an e-mail!</button>
+
+
+	
+	<p></p>
+	<button type="button"; id = "homebutton"; onclick="gohome()" ; class="button">Home</button>
+
+
+	</div>
+
+
+	<script>
+
+	</script>
+	</body>
+</html>
